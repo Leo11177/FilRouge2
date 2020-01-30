@@ -30,7 +30,7 @@ public class CreationCommande extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		String nom =  request.getParameter("nomClient");
+		String nom =  request.getParameter("nomClientPlus");
 		String prenom =  request.getParameter("prenomClient");
 		String adresse =  request.getParameter("adresseClient");
 		String telephone =  request.getParameter("telephoneClient");
