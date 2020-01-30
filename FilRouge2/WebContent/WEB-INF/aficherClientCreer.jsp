@@ -1,19 +1,19 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-<link rel="stylesheet"
+<meta charset="utf-8" />
+<title>Affichage d'un client</title>
+<link type="text/css" rel="stylesheet" href="inc/style.css" />
+        <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 	crossorigin="anonymous">
 
 </head>
-<body>
+<body  class="container">
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<a class="navbar-brand" href="#">COMMANDES</a>
 		
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -24,6 +24,37 @@
 			</div>
 		</div>
 	</nav>
+
+
+
+
+		<p class="info">${ message }</p>
+
+			<div class="card">
+		<div class="card-body">
+				<p class="card-text">Nom : ${ client.nom }</p>
+			</div>
+		</div>
+			<div class="card">
+		<div class="card-body">
+				<p class="card-text">Prénom : ${ client.prenom }</p>
+			</div>
+		</div>
+			<div class="card">
+		<div class="card-body">
+				<p class="card-text">Adresse : ${ client.adresse }</p>
+			</div>
+		</div>
+			<div class="card">
+		<div class="card-body">
+				<p class="card-text">Numéro de téléphone : ${ client.telephone }</p>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-body">
+				<p class="card-text">Email : ${ client.email }</p>
+			</div>
+		</div>
 
 
 

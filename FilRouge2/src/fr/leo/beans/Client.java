@@ -56,6 +56,10 @@ public class Client {
 		this.adresse = adresse;
 		this.telephone = telephone;
 		this.email = email;
+	}
+
+	public Client() {
+		// TODO Auto-generated constructor stub
 	}    
     
 }
