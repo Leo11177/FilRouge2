@@ -34,7 +34,7 @@ public class CreationCommande extends HttpServlet {
 		String prenom =  request.getParameter("prenomClient");
 		String adresse =  request.getParameter("adresseClient");
 		String telephone =  request.getParameter("telephoneClient");
-		String email =  request.getParameter("emailClient");
+		String email =  request.getParameter("emailClient"); 
 		
 		Client client = new Client(nom, prenom, adresse, telephone, email);
 		
